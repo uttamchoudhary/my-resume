@@ -1,0 +1,239 @@
+// Global styling for this template
+body {
+    @include body-font;
+    padding-top: 54px;
+    color: $gray-600;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+        padding-left: $sidebar-base-width;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include heading-font;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $gray-800;
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    @include heading-font;
+    font-size: 1.5rem;
+}
+
+.social-icons {
+    a {
+        display: inline-block;
+        height: 3.5rem;
+        width: 3.5rem;
+        background-color: $gray-700;
+        color: $white !important;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+        margin-right: 1rem;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            background-color: $primary;
+        }
+    }
+}
+
+.dev-icons {
+    font-size: 3rem;
+    .list-inline-item i {
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
+.text-sup {
+    vertical-align: super;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.fa-external-link-alt {
+    &:hover {
+        color: $blue;
+    }
+}
+
+.social-icons {
+    .linked-in {
+        background: #0077B5;
+    }
+    .twitter {
+        background: #1da1f2;
+    }
+    .npm {
+        background: rgb(203, 56, 55);
+    }
+    .github {
+        background: #04B019;
+    }
+}
+
+
+/* ------------------------------------------------------------------- 
+ * ## skillbars - (_skillbars.scss)
+ * ------------------------------------------------------------------- */
+
+.skill-bars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    margin: 6rem 0 3rem;
+}
+
+.skill-bars li {
+    flex: 0 45%;
+    height: 1rem;
+    border-radius: 0.5rem;
+    background: #E3E6E3;
+    width: 100%;
+    margin-bottom: 4rem;
+    padding: 0;
+    position: relative;
+}
+
+.skill-bars li strong {
+    position: absolute;
+    left: 0;
+    top: -1.3rem;
+    @include body-font;
+    color: #4e6b88;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.skill-bars li .progress-bar {
+    background: #078B17;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to right, #24B236, #078B17);
+    position: relative;
+    height: 100%;
+}
+
+.skill-bars li .progress-bar span {
+    @include body-font;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.skill-bars li .percent5 {
+    width: 5%;
+}
+
+.skill-bars li .percent10 {
+    width: 10%;
+}
+
+.skill-bars li .percent15 {
+    width: 15%;
+}
+
+.skill-bars li .percent20 {
+    width: 20%;
+}
+
+.skill-bars li .percent25 {
+    width: 25%;
+}
+
+.skill-bars li .percent30 {
+    width: 30%;
+}
+
+.skill-bars li .percent35 {
+    width: 35%;
+}
+
+.skill-bars li .percent40 {
+    width: 40%;
+}
+
+.skill-bars li .percent45 {
+    width: 45%;
+}
+
+.skill-bars li .percent50 {
+    width: 50%;
+}
+
+.skill-bars li .percent55 {
+    width: 55%;
+}
+
+.skill-bars li .percent60 {
+    width: 60%;
+}
+
+.skill-bars li .percent65 {
+    width: 65%;
+}
+
+.skill-bars li .percent70 {
+    width: 70%;
+}
+
+.skill-bars li .percent75 {
+    width: 75%;
+}
+
+.skill-bars li .percent80 {
+    width: 80%;
+}
+
+.skill-bars li .percent85 {
+    width: 85%;
+}
+
+.skill-bars li .percent90 {
+    width: 90%;
+}
+
+.skill-bars li .percent95 {
+    width: 95%;
+}
+
+.skill-bars li .percent100 {
+    width: 100%;
+}
