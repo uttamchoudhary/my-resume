@@ -1,34 +1,31 @@
 {
     "title": "Resume",
-    "name": "startbootstrap-resume",
+    "name": "uttam-resume",
     "version": "5.0.1",
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "description": "Its my resume and portfolio",
     "keywords": [
         "css",
         "sass",
         "html",
         "responsive",
-        "theme",
-        "template"
+        "angular",
+        "javascript",
+        "react",
+        "web",
+        "frontend"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "homepage": "https://uttamchoudhary.github.io/my-resume/",
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "author": "Uttam Pratap",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+        "url": "https://github.com/uttamchoudhary/my-resume.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.2.0",
         "bootstrap": "4.1.3",
-        "jquery": "3.3.1"
+        "jquery": "3.3.1",
+        "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
         "browser-sync": "2.24.6",
