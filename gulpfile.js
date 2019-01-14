@@ -123,7 +123,7 @@ gulp.task('copy-assets', function() {
 
 gulp.task('copy', ['copy-index', 'copy-assets']);
 
-// Default task
+// Default task to build the app
 gulp.task('default', ['css', 'js', 'vendor', 'copy']);
 
 // Dev task
